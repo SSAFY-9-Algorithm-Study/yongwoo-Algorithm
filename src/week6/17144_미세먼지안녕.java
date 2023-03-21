@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class 17144_미세먼지안녕.java {
+public class Main {
 	
 	static int R; // 행
 	static int C; // 열
