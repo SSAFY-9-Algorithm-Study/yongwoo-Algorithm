@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class 17142_연구소3.java {
+public class Main {
 	
 	static int N; // 연구소 크기
 	static int M; // 놓을 수 있는 바이러스 개수
