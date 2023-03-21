@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class 2206_벽부수고이동하기.java {
+public class Main {
 	
 	static int N; // 행
 	static int M; // 열
