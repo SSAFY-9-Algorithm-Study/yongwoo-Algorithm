@@ -35,7 +35,7 @@ class Main {
 			for (int j = 1; j <= bMax; j++) {
 				if (dp[i][j] == 0) {
 					// 해당 위치에 전깃줄이 연결되어 있지 않으면 이전 인덱스 중 최댓값
-					dp[i][j] = Math.max(dp[i - 1][j - 1], Math.max(dp[i][j - 1], dp[i - 1][j]));
+					dp[i][j] = Math.max(dp[i][j - 1], dp[i - 1][j]);
 				}
 				else {
 					// 전깃줄이 있으면 나를 포함한 상황에서 최댓값
